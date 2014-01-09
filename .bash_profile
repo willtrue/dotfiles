@@ -4,9 +4,6 @@ export PATH="$HOME/bin:$PATH"
 # Add '/usr/local/bin' to the '$PATH'
 export PATH=/usr/local/bin:$PATH
 
-# Configure bash prompt
-export PS1="\u@\h \W$ "
-
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
