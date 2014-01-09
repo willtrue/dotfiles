@@ -10,9 +10,9 @@
 	# Pull in remote changes for the current repository and all its submodules
 	p = !"git pull; git submodule foreach git pull origin master"
 	# Clone a repository including all submodules
-	c = clone --recursive
+	# c = clone --recursive
 	# Commit all changes
-	ca = !git add -A && git commit -av
+	# ca = !git add -A && git commit -av
 	# Switch to a branch, creating it if necessary
 	go = checkout -B
 	# Show verbose output about tags, branches or remotes
