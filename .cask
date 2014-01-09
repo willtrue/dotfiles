@@ -19,8 +19,6 @@ installcask tor-browser
 installcask virtualbox
 installcask appcleaner
 installcask spotify
-installcask truecrypt
-installcask little-snitch
 installcask kismac
 installcask droplr
 installcask coda
