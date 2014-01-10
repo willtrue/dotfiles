@@ -53,4 +53,4 @@ function parse_git_branch() {
 
 # Configure bash prompt
 # export PS1="\u@\h \W$ "
-export PS1="\u@\[${BOLD}${GREEN}\]\h \[$RESET\]\W\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\[$RESET\] \$ "
+export PS1="\u@\[${BOLD}${ORANGE}\]\h \[$RESET\]\W\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\[$RESET\] \$ "
