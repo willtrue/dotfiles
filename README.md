@@ -1,4 +1,4 @@
-# Will’s dotfiles
+# will’s dotfiles
 ### Shamelessly forked from http://mths.be/dotfiles
 
 ## Installation
@@ -90,9 +90,8 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 
 Suggestions/improvements
 [welcome](https://github.com/willtrue/dotfiles/issues)!
-| [@whtrue](http://twitter.com/whtrue "Follow @whtrue on Twitter") |
-|---|
-| [Will True](http://www.willtrue.com) |
+* [@whtrue](http://twitter.com/whtrue "Follow @whtrue on Twitter")
+* [Will True](http://www.willtrue.com)
 
 ## Thanks to…
 
