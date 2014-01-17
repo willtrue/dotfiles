@@ -49,3 +49,4 @@ installcask android-file-transfer
 installcask the-unarchiver
 installcask iterm2
 installcask macvim
+installcask geektool
