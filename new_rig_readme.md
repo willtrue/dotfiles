@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/willtrue/dotfiles && cd dotfiles
 ```
-2. Create /.extras folder with Git credentials
+2. Create `/.extras` folder with Git credentials
 ```bash
 GIT_AUTHOR_NAME="willtrue"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
@@ -28,7 +28,7 @@ source bootstrap.sh
 brew bundle ~/Brewfile
 ```
 
-6. Install native apps with [`brew cask`](https://github.com/phinze/homebrew-cask)
+6. Install native apps with [brew cask](https://github.com/phinze/homebrew-cask)
 ```bash
 ./.cask
 ```
@@ -36,7 +36,7 @@ brew bundle ~/Brewfile
 7. Download [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) font
 
 8. Import Terminal settings via Preferences in Terminal
-available here: /projects/dotfiles/init/wt.terminal
+`~/projects/dotfiles/init/wt.terminal`
 
 9. Set up Sublime Text 2
 	1. Install [Package Control](https://sublime.wbond.net/installation) (may need to quit and reload the app after)
@@ -47,19 +47,21 @@ available here: /projects/dotfiles/init/wt.terminal
 	3. Download [Colour Scemes](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip) for syntax highlighting
 	4. Unzip and place the extracted tmtheme files in the Sublime Text Packages/User folder
 	5. Enable the colour scheme via Preferences -> Color Scheme -> User
-	6. Copy and paste /projects/dotfiles/init/Preferences.sublime-settings into Sublime Text 2 > Preferences > Settings - User
+	6. Copy and paste contents of `~/projects/dotfiles/init/Preferences.sublime-settings` into Sublime Text 2 > Preferences > Settings - User
 	7. (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
 
 10. Set up Adium preferences
-	1. Double-click all available bits and baubles in /projects/dotfiles/init/adium_settings
+	1. Double-click all available bits and baubles in `~/projects/dotfiles/init/adium_settings`
 	2. Account set-up and OTR settings will have to be done manually
 
-11. Install apps not covered (or not covered well) by ./.cask
+11. Install apps not covered (or not covered well) by `./.cask`
 Monosnapper
-Bettertouchtool
+BetterTouchTool
 Little Snitch
 TrueCrypt
 more...
 
-12. Fix TrueCrypt / Homebrew Fuse conflicts
-Run the script written by Yihang Ho available at /projects/dotfiles/init/homebrew-truecrypt-fix.sh
+12. Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)
+```bash
+sh ~/projects/dotfiles/init/homebrew-truecrypt-fix.sh
+```
