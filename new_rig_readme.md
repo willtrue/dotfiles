@@ -50,10 +50,9 @@ brew bundle ~/Brewfile
 		2. sublime-github
 		3. [Theme - Soda](https://github.com/buymeasoda/soda-theme/)
 	3. Download [Colour Scemes](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip) for syntax highlighting
-	4. Unzip and place the extracted tmtheme files in the Sublime Text Packages/User folder
-	5. Enable the colour scheme via Preferences -> Color Scheme -> User
-	6. Copy and paste contents of `~/projects/dotfiles/init/Preferences.sublime-settings` into Sublime Text 2 > Preferences > Settings - User
-	7. (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
+		1. Unzip and place the extracted tmtheme files in the Sublime Text Packages/User folder
+	4. Copy and paste contents of `~/projects/dotfiles/init/Preferences.sublime-settings` into Sublime Text 2 > Preferences > Settings - User
+	5. (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
 
 11. Set up Adium preferences
 	1. Double-click all available bits and baubles in `~/projects/dotfiles/init/adium_settings`
@@ -64,6 +63,8 @@ Monosnapper
 BetterTouchTool  
 Little Snitch  
 TrueCrypt  
+Arq  
+App Store purchases  
 more...  
 
 13. Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)
