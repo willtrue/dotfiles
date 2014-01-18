@@ -2,6 +2,7 @@
 #### Shamelessly forked from http://mths.be/dotfiles
 
 ## [New rig set up](https://github.com/willtrue/dotfiles/blob/master/new_rig_readme.md)
+[Readme](https://github.com/willtrue/dotfiles/blob/master/new_rig_readme.md) on setting up a new OS X machine
 
 ## Installation
 
@@ -97,7 +98,7 @@ Suggestions/improvements
 
 ## Thanks to…
 
-* [Mathias Bynens](http://mathiasbynens.be/)
+* [Mathias Bynens](http://mathiasbynens.be/)  
 who thanked:
 * @ptb and [his _OS X Lion Setup_ repository](https://github.com/ptb/Mac-OS-X-Lion-Setup)
 * [Ben Alman](http://benalman.com/) and his [dotfiles repository](https://github.com/cowboy/dotfiles)
