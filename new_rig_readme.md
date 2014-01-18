@@ -39,13 +39,16 @@ brew bundle ~/Brewfile
 available here: /projects/dotfiles/init/wt.terminal
 
 9. Set up Sublime Text 2
-Install [Package Control](https://sublime.wbond.net/installation) (may need to quit and reload the app after)
-Install packages: Git, sublime-github, [Theme - Soda](https://github.com/buymeasoda/soda-theme/)
-Download [Colour Scemes](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip) for syntax highlighting
-* Unzip and place the extracted tmtheme files in the Sublime Text Packages/User folder
-* Enable the colour scheme via Preferences -> Color Scheme -> User
+- Install [Package Control](https://sublime.wbond.net/installation) (may need to quit and reload the app after)
+- Install packages: 
+	- Git 
+	- sublime-github
+	- [Theme - Soda](https://github.com/buymeasoda/soda-theme/)
+- Download [Colour Scemes](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip) for syntax highlighting
+- Unzip and place the extracted tmtheme files in the Sublime Text Packages/User folder
+- Enable the colour scheme via Preferences -> Color Scheme -> User
 Copy and paste /projects/dotfiles/init/Preferences.sublime-settings into Sublime Text 2 > Preferences > Settings - User
-(setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
+- (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
 
 10. Set up Adium preferences
 Double-click all available bits and baubles in /projects/dotfiles/init/adium_settings
