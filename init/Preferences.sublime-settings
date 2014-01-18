@@ -26,7 +26,7 @@
 	],
 	"font_size": 14,
 	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true,
 	"ignored_packages":
 	[
