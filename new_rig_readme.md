@@ -6,7 +6,7 @@
 ```bash
 git clone https://github.com/willtrue/dotfiles && cd dotfiles
 ```
-2. Create `/.extras` folder with Git credentials
+2. Create `/.extra` with Git credentials
 ```bash
 GIT_AUTHOR_NAME="willtrue"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
