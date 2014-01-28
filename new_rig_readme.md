@@ -20,10 +20,9 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```bash
 source bootstrap.sh
 ```
-
-4. Set OS X defaults
+4. Edit `~/init/new_rig.sh` for the desired hostname, save, and run the script
 ```bash
-./.osx
+sh ./init/new_rig.sh
 ```
 
 5. Install [Homebrew](http://brew.sh/)
@@ -50,13 +49,17 @@ brew bundle ~/Brewfile
 		2. sublime-github
 		3. [Theme - Soda](https://github.com/buymeasoda/soda-theme/)
 	3. Download [Colour Scemes](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip) for syntax highlighting
-		1. Unzip and place the extracted tmtheme files in the Sublime Text Packages/User folder
-	4. Copy and paste contents of `~/projects/dotfiles/init/Preferences.sublime-settings` into Sublime Text 2 > Preferences > Settings - User
-	5. (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
+		1. Unzip and place the extracted tmtheme files in the `~/library/Application Support/Sublime Text 2/Packages/User`
+	4. (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
 
 11. Set up Adium preferences
 	1. Double-click all available bits and baubles in `~/projects/dotfiles/init/adium_settings`
 	2. Account set-up and OTR settings will have to be done manually
+
+. Set OS X defaults
+```bash
+./.osx
+```
 
 12. Install apps not covered (or not covered well) by `./.cask`  
 Monosnapper  

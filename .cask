@@ -6,6 +6,7 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
+installcask virtualbox
 installcask adium
 installcask aerofs
 installcask alfred
@@ -27,7 +28,6 @@ installcask istat-menus
 installcask iterm2
 installcask jumpcut
 installcask kismac
-installcask macvim
 installcask nvalt
 installcask omnigraffle
 installcask onepassword
@@ -35,7 +35,6 @@ installcask opera
 installcask opera-next
 installcask reflector
 installcask sequel-pro
-installcask skitch
 installcask skype
 installcask sparrow
 installcask spotify
@@ -45,6 +44,5 @@ installcask todoist
 installcask tor-browser
 installcask transmission
 installcask transmit
-installcask virtualbox
 installcask viscosity
 installcask vlc

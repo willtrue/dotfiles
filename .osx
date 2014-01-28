@@ -12,6 +12,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # General UI/UX                                                               #
 ###############################################################################
 
+# wt: I've moved this to the /init folder as a standalone script
 # Set computer name (as done via System Preferences → Sharing)
 # will run this manually
 # sudo scutil --set ComputerName "wt_"
@@ -105,7 +106,7 @@ systemsetup -setrestartfreeze on
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 # Disable Notification Center and remove the menu bar icon
-launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
+# launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
 # Disable smart quotes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
@@ -530,10 +531,10 @@ defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 # defaults write com.apple.terminal StringEncodings -array 4
 
 # # Use a modified version of the Pro theme by default in Terminal.app
-# open "${HOME}/init/Mathias.terminal"
+ open "${HOME}/init/wt.terminal"
 # sleep 1 # Wait a bit to make sure the theme is loaded
-# defaults write com.apple.terminal "Default Window Settings" -string "Mathias"
-# defaults write com.apple.terminal "Startup Window Settings" -string "Mathias"
+ defaults write com.apple.terminal "Default Window Settings" -string "wt"
+ defaults write com.apple.terminal "Startup Window Settings" -string "wt"
 
 # # Enable “focus follows mouse” for Terminal.app and all X11 apps
 # # i.e. hover over a window and start typing in it without clicking first
@@ -700,7 +701,7 @@ defaults write com.twitter.twitter-mac ShowDevelopMenu -bool true
 ###############################################################################
 
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "Dock" \
-	"Finder" "Mail" "Messages" "Safari" "SizeUp" "SystemUIServer" "Terminal" \
+	"Finder" "Mail" "Messages" "Safari" "SizeUp" "SystemUIServer" \
 	"Transmission" "Twitter" "iCal"; do
 	killall "${app}" > /dev/null 2>&1
 done
