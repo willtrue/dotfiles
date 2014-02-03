@@ -5,7 +5,7 @@
 1. Clone the repository wherever you want. (I keep it in `~/projects/dotfiles`)
 ```bash
 git clone https://github.com/willtrue/dotfiles && cd dotfiles
-```
+```  
 2. Create `/.extra` with Git credentials
 ```bash
 GIT_AUTHOR_NAME="willtrue"

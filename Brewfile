@@ -47,5 +47,8 @@ install wget --enable-iri
 # tap homebrew/versions
 # install lua52
 
+# Install nmap
+install nmap
+
 # Remove outdated versions from the cellar
 cleanup
