@@ -50,5 +50,8 @@ install wget --enable-iri
 # Install nmap
 install nmap
 
+# Install speedtest-sli
+install speedtest_cli
+
 # Remove outdated versions from the cellar
 cleanup
