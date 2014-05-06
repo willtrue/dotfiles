@@ -53,5 +53,8 @@ install nmap
 # Install speedtest-sli
 install speedtest_cli
 
+# Install hub command-line wrapper for git
+install hub
+
 # Remove outdated versions from the cellar
 cleanup

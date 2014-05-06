@@ -15,6 +15,9 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
+# Hub as git
+alias git="hub"
+
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
