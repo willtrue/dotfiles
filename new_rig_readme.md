@@ -42,14 +42,15 @@ brew bundle ~/Brewfile
 ##### ~~9. Import Terminal settings via Preferences in Terminal~~  
 ~~`~/projects/dotfiles/init/wt.terminal`~~ _this is covered in the /.osx script now_
 
-##### 10. Set up Sublime Text 2
+##### 10. Set up Sublime Text
+0. [Get Sublime Text 3](http://www.sublimetext.com/3), currently not available as a Cask. 
 1. Install [Package Control](https://sublime.wbond.net/installation) (may need to quit and reload the app after)
 2. Install packages:
 	1. Git
 	2. sublime-github
 	3. [Theme - Soda](https://github.com/buymeasoda/soda-theme/)
 3. Download [Colour Scemes](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip) for syntax highlighting
-	1. Unzip and place the extracted tmtheme files in the `~/library/Application Support/Sublime Text 2/Packages/User`
+	1. Unzip and place the extracted tmtheme files in the `~/library/Application Support/Sublime Text/Packages/User`
 4. (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
 
 ##### 11. Set up Adium preferences
