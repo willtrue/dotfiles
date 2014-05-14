@@ -16,6 +16,7 @@ installcask bartender
 installcask carbon-copy-cloner
 installcask charles
 installcask coda
+installcask colorpicker-skalacolor
 installcask dropbox
 installcask droplr
 installcask firefox
