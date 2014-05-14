@@ -69,7 +69,10 @@ Little Snitch
 TrueCrypt  
 Arq  
 App Store purchases  
-more...  
+more, probably...  
+
+##### 14. Run apps that need to self-configure or move after being installed by Cask
+Reflector
 
 ##### 14. Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)
 ```bash

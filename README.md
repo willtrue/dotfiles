@@ -1,7 +1,7 @@
 # willtrue’s dotfiles
 #### forked from http://mths.be/dotfiles
 
-## [will's new rig set up](https://github.com/willtrue/dotfiles/blob/master/new_rig_readme.md)
+## [new rig set up](https://github.com/willtrue/dotfiles/blob/master/new_rig_readme.md)
 [Readme](https://github.com/willtrue/dotfiles/blob/master/new_rig_readme.md) on setting up a new OS X machine
 
 ## Installation
