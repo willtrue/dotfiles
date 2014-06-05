@@ -41,7 +41,7 @@ installcask sparrow
 installcask spotify
 installcask the-unarchiver
 installcask todoist
-installcask tor-browser
+installcask torbrowser
 installcask transmission
 installcask transmit
 installcask viscosity
