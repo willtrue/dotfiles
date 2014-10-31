@@ -44,5 +44,6 @@ installcask todoist
 installcask torbrowser
 installcask transmission
 installcask transmit
+installcask vagrant
 installcask viscosity
 installcask vlc
