@@ -7,6 +7,7 @@ function installcask() {
 }
 
 installcask virtualbox
+installcask 1password
 installcask adium
 installcask aerofs
 installcask alfred
@@ -31,7 +32,6 @@ installcask jumpcut
 installcask kismac
 installcask nvalt
 installcask omnigraffle
-installcask onepassword
 installcask opera
 installcask reflector
 installcask sequel-pro
