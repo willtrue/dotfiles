@@ -50,6 +50,9 @@ install wget --enable-iri
 # Install nmap
 install nmap
 
+# Install wget
+install wget
+
 # Install speedtest-sli
 install speedtest_cli
 
