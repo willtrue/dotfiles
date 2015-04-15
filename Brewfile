@@ -12,9 +12,6 @@ upgrade
 # Install Bash 4
 # install bash
 
-# Install wget with IRI support
-install wget --enable-iri
-
 # Install RingoJS and Narwhal
 # Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
 # install ringojs
