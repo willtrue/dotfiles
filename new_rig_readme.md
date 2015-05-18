@@ -29,7 +29,7 @@ sh ./init/new_rig.sh
 
 ##### 6. Install Homebrew formulae
 ```bash
-brew bundle ~/Brewfile
+./brew.sh
 ```
 
 ##### 7. Install native apps with [brew cask](https://github.com/phinze/homebrew-cask)
