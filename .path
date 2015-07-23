@@ -1,2 +1,4 @@
 # Add '/usr/local/bin' to the '$PATH'
 export PATH=/usr/local/bin:$PATH
+# Add '/usr/local/sbin' to the '$PATH'
+export PATH=/usr/local/sbin:$PATH
