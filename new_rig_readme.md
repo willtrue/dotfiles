@@ -40,7 +40,7 @@ sh ./init/new_rig.sh
 ##### 8. Download [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) font
 
 ##### ~~9. Import Terminal settings via Preferences in Terminal~~  
-~~`~/projects/dotfiles/init/wt.terminal`~~ _this is covered in the /.osx script now_
+~~`~/projects/dotfiles/init/wt.terminal`~~ _this is covered in the /.macos script now_
 
 ##### 10. Set up Sublime Text
 0. [Get Sublime Text 3](http://www.sublimetext.com/3), currently not available as a Cask. 
@@ -57,17 +57,15 @@ sh ./init/new_rig.sh
 1. Double-click all available bits and baubles in `~/projects/dotfiles/init/adium_settings`
 2. Account set-up and OTR settings will have to be done manually
 
-##### 12. Set OS X defaults
+##### 12. Set macOS defaults
 ```bash
-./.osx
+./.macos
 ```
 
 ##### 13. Install apps not covered (or not covered well) by `./.cask`  
 Monosnapper  
-BetterTouchTool  
 Little Snitch  
-TrueCrypt  
-Arq  
+VeraCrypt    
 App Store purchases  
 more, probably...  
 

@@ -9,7 +9,6 @@ function installcask() {
 installcask virtualbox
 installcask 1password
 installcask adium
-installcask aerofs
 installcask alfred
 installcask android-file-transfer
 installcask appcleaner
@@ -19,11 +18,10 @@ installcask carbon-copy-cloner
 installcask charles
 installcask coda
 installcask colorpicker-skalacolor
+installcask disk-inventory-x
 installcask dropbox
-installcask droplr
 installcask firefox
-installcask flowdock
-installcask geektool
+installcask github-desktop
 installcask google-chrome
 installcask google-drive
 installcask handbrake
@@ -39,8 +37,9 @@ installcask sequel-pro
 installcask sketch
 installcask sketch-toolbox
 installcask skype
-installcask sparrow
+installcask slack
 installcask spotify
+installcask sublime-text
 installcask the-unarchiver
 installcask todoist
 installcask torbrowser
@@ -48,4 +47,5 @@ installcask transmission
 installcask transmit
 installcask vagrant
 installcask viscosity
+installcask vivaldi
 installcask vlc
