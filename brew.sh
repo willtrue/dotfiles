@@ -12,13 +12,13 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install `wget`
 brew install wget
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
+brew install vim --with-override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
