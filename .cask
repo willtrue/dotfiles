@@ -46,6 +46,7 @@ installcask torbrowser
 installcask transmission
 installcask transmit
 installcask vagrant
+installcask veracrypt
 installcask viscosity
 installcask vivaldi
 installcask vlc
