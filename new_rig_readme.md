@@ -43,15 +43,11 @@ sh ./init/new_rig.sh
 ~~`~/projects/dotfiles/init/wt.terminal`~~ _this is covered in the /.macos script now_
 
 ##### 10. Set up Sublime Text
-0. [Get Sublime Text 3](http://www.sublimetext.com/3), currently not available as a Cask. 
 1. Install [Package Control](https://sublime.wbond.net/installation) (may need to quit and reload the app after)
 2. Install packages:
 	1. Git
 	2. sublime-github
-	3. [Theme - Soda](https://github.com/buymeasoda/soda-theme/)
-3. Download [Colour Scemes](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip) for syntax highlighting
-	1. Unzip and place the extracted tmtheme files in the `~/library/Application Support/Sublime Text/Packages/User`
-4. (setting up the 'subl' command might need tweaking, see [here](https://gist.github.com/artero/1236170) and [here](http://www.sublimetext.com/docs/2/osx_command_line.html))
+	3. Material Theme
 
 ##### 11. Set up Adium preferences
 1. Double-click all available bits and baubles in `~/projects/dotfiles/init/adium_settings`
@@ -72,7 +68,7 @@ more, probably...
 ##### 14. Run apps that need to self-configure or move after being installed by Cask
 Reflector
 
-##### 14. Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)
-```bash
+##### 14. ~~Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)~~~
+~~```bash
 sh ~/projects/dotfiles/init/homebrew-truecrypt-fix.sh
-```
+```~~
