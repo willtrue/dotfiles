@@ -54,9 +54,7 @@ sh ./init/new_rig.sh
 2. Account set-up and OTR settings will have to be done manually
 
 ##### 12. Set macOS defaults
-```bash
-./.macos
-```
+`./.macos`
 
 ##### 13. Install apps not covered (or not covered well) by `./.cask`  
 Monosnapper  
@@ -68,7 +66,5 @@ more, probably...
 ##### 14. Run apps that need to self-configure or move after being installed by Cask
 Reflector
 
-##### 14. ~~Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)~~~
-~~```bash
-sh ~/projects/dotfiles/init/homebrew-truecrypt-fix.sh
-```~~
+##### 14. ~~Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)~~ 
+~~`sh ~/projects/dotfiles/init/homebrew-truecrypt-fix.sh`~~ _No longer using TrueCrypt_
