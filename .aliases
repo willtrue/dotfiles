@@ -48,9 +48,6 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 # Show active network interfaces
 alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
 
-# Enhanced WHOIS lookups
-alias whois="whois -h whois-servers.net"
-
 # Speedtest-Cli
 alias speedtest="speedtest_cli && speedtest_cli && speedtest_cli && badge"
 
