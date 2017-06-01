@@ -51,6 +51,7 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 brew install hub
+brew install htop
 
 # Remove outdated versions from the cellar.
 brew cleanup
