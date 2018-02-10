@@ -1,36 +1,25 @@
 {
-	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
-	"show_line_endings": true,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
-	"file_exclude_patterns":
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"font_options":
 	[
-		".DS_Store",
-		"Desktop.ini",
-		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
+		"gray_antialias"
 	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		"node_modules"
-	],
-	"default_encoding": "UTF-8",
-	"font_face": "Inconsolata",
-	"rulers":
-	[
-		80
-	],
+	"font_face": "inconsolata",
 	"font_size": 14,
-	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": false,
-	"word_wrap": true,
 	"ignored_packages":
 	[
+		"Package Control",
 		"Vintage"
 	],
-	"theme": "Soda Dark.sublime-theme"
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"overlay_scroll_bars": "enabled",
+	"theme": "Material-Theme.sublime-theme"
 }
