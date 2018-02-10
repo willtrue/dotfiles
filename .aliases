@@ -14,7 +14,6 @@ alias p="cd ~/projects"
 alias v="cd ~/vimeo"
 alias g="git"
 alias h="history"
-alias j="jobs"
 
 # Hub as git
 alias git="hub"
