@@ -39,32 +39,22 @@ sh ./init/new_rig.sh
 
 ##### 8. Download [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) font
 
-##### ~~9. Import Terminal settings via Preferences in Terminal~~  
-~~`~/projects/dotfiles/init/wt.terminal`~~ _this is covered in the /.macos script now_
-
-##### 10. Set up Sublime Text
+##### 9. Set up Sublime Text
 1. Install [Package Control](https://sublime.wbond.net/installation) (may need to quit and reload the app after)
 2. Install packages:
 	1. Git
 	2. sublime-github
 	3. Material Theme
 
-##### 11. Set up Adium preferences
+##### 10. Set up Adium preferences
 1. Double-click all available bits and baubles in `~/projects/dotfiles/init/adium_settings`
 2. Account set-up and OTR settings will have to be done manually
 
-##### 12. Set macOS defaults
+##### 11. Set macOS defaults
 `./.macos`
 
-##### 13. Install apps not covered (or not covered well) by `./.cask`  
+##### 12. Install apps not covered (or not covered well) by `./.cask`  
 Monosnapper  
-Little Snitch  
-VeraCrypt    
+Little Snitch
 App Store purchases  
 more, probably...  
-
-##### 14. Run apps that need to self-configure or move after being installed by Cask
-Reflector
-
-##### 14. ~~Fix TrueCrypt / Homebrew Fuse conflicts with [script by Yihang Ho](http://www.yihangho.com/homebrew-and-truecrypt/)~~ 
-~~`sh ~/projects/dotfiles/init/homebrew-truecrypt-fix.sh`~~ _No longer using TrueCrypt_
