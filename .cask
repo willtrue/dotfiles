@@ -12,8 +12,6 @@ installcask alfred
 installcask android-file-transfer
 installcask appcleaner
 installcask arq
-installcask bartender
-installcask carbon-copy-cloner
 installcask charles
 installcask coda
 installcask colorpicker-skalacolor
@@ -22,9 +20,9 @@ installcask dropbox
 installcask firefox
 installcask github-desktop
 installcask google-chrome
-installcask google-drive
+installcask google-drive-file-stream
+installcask google-hangouts
 installcask handbrake
-installcask istat-menus
 installcask iterm2
 installcask jumpcut
 installcask kismac
@@ -32,7 +30,6 @@ installcask nvalt
 installcask omnigraffle
 installcask opera
 installcask private-internet-access
-installcask reflector
 installcask sequel-pro
 installcask sketch
 installcask sketch-toolbox
