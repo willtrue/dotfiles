@@ -49,7 +49,7 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
 
 # Speedtest-Cli
-alias speedtest="speedtest_cli && speedtest_cli && speedtest_cli && badge"
+alias speedtest="speedtest-cli && speedtest-cli && speedtest-cli && badge"
 
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
