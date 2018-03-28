@@ -12,6 +12,7 @@ installcask alfred
 installcask android-file-transfer
 installcask appcleaner
 installcask arq
+installcask bartender
 installcask charles
 installcask coda
 installcask colorpicker-skalacolor
@@ -23,6 +24,7 @@ installcask google-chrome
 installcask google-drive-file-stream
 installcask google-hangouts
 installcask handbrake
+installcask istat-menus
 installcask iterm2
 installcask jumpcut
 installcask kismac
