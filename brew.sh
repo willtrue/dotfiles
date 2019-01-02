@@ -18,22 +18,22 @@ brew upgrade
 brew install wget
 
 # Install more recent versions of some OS X tools.
-brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+# brew install vim --with-override-system-vi
+# brew install homebrew/dupes/grep
+# brew install homebrew/dupes/openssh
+# brew install homebrew/dupes/screen
 
 # Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
+# brew tap bramstein/webfonttools
+# brew install sfnt2woff
+# brew install sfnt2woff-zopfli
+# brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install nmap
 
 # Install other useful binaries.
-brew install ack
+# brew install ack
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
